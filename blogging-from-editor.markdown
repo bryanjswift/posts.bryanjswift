@@ -23,7 +23,7 @@ I started looking around for a plugin with similar functionality for VIM and fou
 [3]: http://blog.tquadrado.com
 [4]: http://github.com/bryanjswift/dotconfig
 
-As a result of these limitations I forked [pedro's script source][5] and began hacking away at it. I'm not finished with it by any means in [my fork][6] of the vimblog script but I do at least have the login credentials and endpoint information in a separate file. I'm looking forward to continuing to develop this script as it is my first real endeavor into using Ruby during something other than tutorials.
+As a result of these limitations I forked [pedro's script source][5] and began hacking away at it. I'm not finished with it by any means in [my fork of the vimblog script][6] but I do at least have the login credentials and endpoint information in a separate file. I'm looking forward to continuing to develop this script as it is my first real endeavor into using Ruby during something other than tutorials.
 
 [5]: http://github.com/pedromg/vimblog.vim
 [6]: http://github.com/bryanjswift/vimblog
