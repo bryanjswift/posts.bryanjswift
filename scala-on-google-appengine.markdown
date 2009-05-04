@@ -1,10 +1,15 @@
 Type: Blog Post (Markdown)
 Blog: Post-Swiftalism
+Link: http://bryanjswift.com/thoughts/scala-on-google-appengine
+Post: 255
 Title: Some Thoughts About Scala on Google's Java AppEngine
 Slug: scala-on-google-appengine
-Keywords: scala, java, persistence, appengine
-Category: thoughts
+Keywords: appengine, java, persistence, scala
+Status: publish
+Date: 2009-05-04 02:18:15 -0400
+Pings: On
 Comments: Off
+Category: thoughts
 
 I've spent some more time over the last two weeks working on putting an idea of mine into action. My plan was to use Google AppEngine to serve the application and store it's data in BigTable. After I spent some time with [JDO][1] annotations and making sure I got them correct I sent the application to the AppEngine dev server using Ant on my local machine and received an odd [runtime exception][2]. I received a similar error when I pushed the application up to Google's servers. After spending quite a bit of time trying to debug an unfamiliar error I asked on the [Java AppEngine Mailing List][3] if there was [a problem with JDO annotations and Scala][4]. The response I got was that it was a known issue with the 1.1.0 version of the DataNucleus enhancement process.
 
